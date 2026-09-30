@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel california</title>
+</head>
+<body>
+    <form action="20_success.html" align="center">
+    <h1 align="center">hotel california</h1>
+    <hr>
+    <h2 align="center">haunted room information</h2>
+    <table align="center" border="1" cellpadding="15">
+        <tr>
+            <th>room type</th>
+            <th>capacity</th>
+            <th>price/night</th>
+            <th>facilities</th>
+        </tr>
+        <tr>
+            <td>standard</td>
+            <td>2 spirits</td>
+            <td>2,500</td>
+            <td>you can check out anytime you like, but you can never leave</td>
+        </tr>
+        <tr>
+            <td>deluxe</td>
+            <td>4 spirits</td>
+            <td>5,000</td>
+            <td>didnt have that spirit in here since 1969</td> 
+        </tr>
+        <tr>
+            <td>suite</td>
+            <td>6 spirits</td>
+            <td>7,500</td>
+            <td>any time of year, you can find it here</td>
+        </tr>
+    </table>
+    <hr>
+    <h2 align="center">book your haunted room</h2>
+    <form align="center">
+        <h2>guest details</h2>
+        <label>Name:</label>
+        <input type="text" required/>
+        <br><br>
+        <label>Email:</label>
+        <input type="email" required/>
+        <br><br>
+        <label>Mobile:</label>
+        <input type="tel" required/>
+        <br><br> 
+        <label>check in</label>
+        <input type="date" required/>
+        <br><br>
+        <label>Adults</label>
+        <input type="number" min="1" max="6" required/>
+        <br><br>
+        <label>Children</label>
+        <input type="number" min="1" max="6" required/>
+        <br><br>
+         <h2>room selection</h2>
+            <select>
+                <option>select room</option>
+                <option>standard</option>
+                <option>deluxe</option>
+                <option>suite</option>
+            </select>
+            <h2>Additional services</h2>
+            <input type="checkbox">Ghost Massage
+            <input type="checkbox">Haunted High Tea
+            <input type="checkbox">Minty Spirits
+            <input type="checkbox">Abnormal Feeling
+            <br><br>
+            <input type="submit" value="book now"> 
+        
+
+        </form>
+    </form>
+</body>
+</html>
